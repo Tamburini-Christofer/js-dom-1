@@ -1,10 +1,10 @@
-//Prendiamo la classe della lampadina Accesa tramite il QuerySelector 
+//Prendiamo ID della lampadina Accesa tramite il QuerySelector 
 const accesaLampadina = document.querySelector("#accesa");
 
-//Prendiamo la classe della lampadina Spenta tramite il QuerySelector 
+//Prendiamo ID della lampadina Spenta tramite il QuerySelector 
 const spentaLampadina = document.querySelector("#spenta");
 
-//Prendiamo il meme di quel figo di Will Smith tramite la classe assegnata 
+//Prendiamo il meme di quel figo di Will Smith tramite ID assegnata 
 let WillSmith = document.querySelector("#willsmith");
 
 //Il bottone lo prendiamo con l'Id per cambiare
