@@ -26,7 +26,7 @@ function OnOff () {
 //Will Smith apparrirà con il meme grazie al Block
         WillSmith.style.display = "block";
 //Il testo del bottone verrà sovrascritto
-        bottone.textContent = "Spegni";
+        bottone.textContent = "Spegni!";
 //Il Background del bottone diventerà rosso
         bottone.style.backgroundColor = ("red");
 //La funzione porterà la lampadina allo stato di false

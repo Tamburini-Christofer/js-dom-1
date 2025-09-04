@@ -1,10 +1,18 @@
+/*Generali*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*Contenitore*/
 .contenitore{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,11 +21,7 @@
     margin: 10vh auto;
 }
 
-h1{
-    margin-top: 20px;
-    text-align: center;
-}
-
+/*Immagini*/
 img{
     max-width: 100%;
 }
@@ -26,11 +30,17 @@ img:first-child{
     max-width: 20%;
 }
 
+/*Stato iniziale*/
 #willsmith,
 #accesa{
     display: none;
 }
+#willsmith{
+    position: absolute;
+    transform: translate(-147px, 2px);
+}
 
+/*Bottone*/
 #bottone{
     cursor: pointer;
     padding: 10px 20px;
